@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'LaoMN','TaipeiSansTCBeta-Light';
+    }
+
+    @font-face {
+        font-family: TaipeiSansTCBeta;
+        src: url(./font/TaipeiSansTCBeta.ttf);
+        font-family: LaoMN;
+        src: url(./font/LaoMN.ttc);
+      }
+
+    h4{ font-family: LaoMN;
+        font-weight: 500; }
+
+
+    /* 修改navbar漢堡按下去方向 */
+ .navbar{
+   width: 30%;
+   height: 100vh;
+ }
+.closebtn{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
